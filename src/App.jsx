@@ -3,11 +3,12 @@ import axios from "axios"
 
 
 function App() {
-  
+  const apiKey = import.meta.env.VITE_API_KEY
+
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
  
-  const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=54974cc4c78258b63fc6f2e5819ff000
+  const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}
   `
   
  const searchLocation = (event) => {
