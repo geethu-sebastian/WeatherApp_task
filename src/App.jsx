@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 function App() {
-  const apiKey = import.meta.env.VITE_API_KEY
+  const apiKey = "54974cc4c78258b63fc6f2e5819ff000"
 
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
