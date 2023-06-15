@@ -22,7 +22,7 @@ function App() {
 }
   return (
     <div className="flex w-screen h-screen bg-white items-center justify-center">
-      <div className="flex flex-col w-[80%] h-[80%] bg-blue-200 rounded-xl items-center py-4 bg-[url('/sky.svg')]">
+      <div className="flex flex-col w-[80%] h-[80%] bg-blue-200 rounded-xl items-center md:py-4 bg-[url('/sky.svg')]">
         
         <input
           value={location}
